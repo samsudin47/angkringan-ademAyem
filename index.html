@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- use framework bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <!--CDN icon fonts Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <title>Angkringan Adem Ayem</title>
+</head>
+
+<body>
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-lg bg-success navbar-success py-3 fixed-top">
+        <div class="container pb-3">
+            <img src="img/icon1.png" alt="" class="img-fluid" />
+            <a href="#" class="navbar-brand text-light fs-3">Angkringan <span class="text-warning">AdemAyem</span></a>
+
+            <!-- toggle menu responsive -->
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <!-- toggle menu responsive end -->
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto fs-5">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link text-light">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#menu" class="nav-link text-light">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#pemesanan" class="nav-link text-light">Pemesanan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#lokasi" class="nav-link text-light">Lokasi</a>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <a href="#" class="btn btn-dark nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-chevron-right text-warning"></i><span class="text-warning">Hubungi Kami</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Whatsapp</a></li>
+                                <li><a class="dropdown-item" href="#">Telepon</a></li>
+                                <li><a class="dropdown-item" href="#">Email</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- home -->
+    <section id="home" class="p-5 bg-success">
+        <div class="container text-center">
+            <img id="image-first2" src="img/home-1.jpg" alt="" class="img-fluid rounded-4 m-2" />
+            <img id="image-first1" src="img/home-3.jpg" alt="" class="img-fluid rounded-4 m-2" />
+            <img id="image-first3" src="img/home-2.jpg" alt="" class="img-fluid rounded-4 m-2" />
+        </div>
+    </section>
+
+    <section class="p-5 bg-success">
+        <div class="container">
+            <h3 class="text-light">Selamat datang di angkringan <span class="text-warning"> AdemAyem</span></h3>
+            <p id="text-1" class="lead text-light">
+                Angkringan AdemAyem merupakan, sit amet consectetur adipisicing elit. Maiores itaque doloribus sequi, rem at dolores porro cumque aperiam eos dignissimos repudiandae sed quia possimus consequatur adipisci assumenda magnam ducimus distinctio incidunt ullam
+                minima ex repellendus! Provident suscipit et beatae architecto temporibus! Eos amet quam ex necessitatibus minima accusamus, cum sed Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia placeat magni quos facere dolores aspernatur,
+                pariatur culpa consectetur eum, soluta quibusdam repudiandae odit autem animi ipsum ullam porro fuga ea debitis adipisci atque! Enim maxime harum nam quae, dolores nobis molestias, omnis deleniti fugit id dolor soluta doloribus provident
+                minus.
+            </p>
+        </div>
+    </section>
+    <!-- home end -->
+
+    <!-- menu -->
+    <section id="menu" class="p-5 bg-success text-light">
+        <div class="container">
+            <h2 class="mb-3">Menu :</h2>
+            <i class="bi bi-arrow-return-right h1"></i>
+            <div class="row text-center g-4 justify-content-evenly">
+                <h3 class="text-light text-center mb-3">Makanan</h3>
+                <div class="col-md m-3 bg-light text-success rounded-3">
+                    <h4 class="text-center pt-3">Nasi</h4>
+                    <ul class="list-group pb-4 fw-semibold lead">
+                        <li class="list-group-item">Nasi Ayam Suwir Rp. 8000</li>
+                        <li class="list-group-item">Nasi Teri Rp. 7000</li>
+                        <li class="list-group-item">Nasi Pindang Rp. 7000</li>
+                        <li class="list-group-item">Nasi Sambel Tempe Rp. 5000</li>
+                        <li class="list-group-item">Nasi Bakar Rp. 5000</li>
+                    </ul>
+                    <a href="menu/all-menu.html" class="btn btn-success mb-3 fw-semibold">Open klik<i class="bi bi-chevron-right"></i></a>
+                </div>
+                <div class="col-md m-3 bg-light text-success rounded-3">
+                    <h4 class="text-center pt-3">Aneka Gorengan</h4>
+                    <ul class="list-group pb-4 fw-semibold lead">
+                        <li class="list-group-item">Bakwan Sayur Rp. 8000</li>
+                        <li class="list-group-item">Bakwan Jagung Rp. 7000</li>
+                        <li class="list-group-item">Aci Krenyes Rp. 7000</li>
+                        <li class="list-group-item">Tahu Krenyes Rp. 5000</li>
+                        <li class="list-group-item">Risoles Rp. 5000</li>
+                    </ul>
+                    <a href="menu/all-menu.html" class="btn btn-success mb-3 fw-semibold">Open klik<i class="bi bi-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="row text-center g-4 justify-content-evenly">
+                <h3 class="text-light text-center">Minuman</h3>
+                <div class="col-md m-3 bg-light text-success rounded-3">
+                    <h4 class="text-center pt-3">Minuman Dingin</h4>
+                    <ul class="list-group pb-4 fw-semibold lead">
+                        <li class="list-group-item">Es Cendol Susu Ma Rp. 8000</li>
+                        <li class="list-group-item">Es Leci Rp. 7000</li>
+                        <li class="list-group-item">Es Cendol Bumi Ayu Rp. 7000</li>
+                        <li class="list-group-item">Es Teh Manis Rp. 5000</li>
+                        <li class="list-group-item">Es Jeruk Rp. 5000</li>
+                    </ul>
+                    <a href="menu/all-menu.html" class="btn btn-success mb-3 fw-semibold">Open klik<i class="bi bi-chevron-right"></i></a>
+                </div>
+                <div class="col-md m-3 bg-light rounded-3">
+                    <h4 class="text-center text-success pt-3">Minuman Hangat</h4>
+                    <ul class="list-group pb-4 fw-semibold lead">
+                        <li class="list-group-item">Teh Hangat Rp. 5000</li>
+                        <li class="list-group-item">Jahe Hangat Rp. 7000</li>
+                        <li class="list-group-item">Kopi Joss Rp. 7000</li>
+                        <li class="list-group-item">Susu Jahe Rp. 5000</li>
+                        <li class="list-group-item">Jeruk Hangat Rp. 5000</li>
+                    </ul>
+                    <a href="menu/all-menu.html" class="btn btn-success mb-3 fw-semibold">Open klik<i class="bi bi-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- menu end -->
+
+    <!-- pemesanan -->
+    <section id="pemesanan" class="p-5 bg-light">
+        <div class="container text-center">
+            <h2 class="text-success">Pemesanan dapat dilakukan di :</h2>
+            <i class="bi bi-arrow-return-right h1 text-success"></i>
+            <div class="row">
+                <div class="col-md text-center m-3">
+                    <p id="text-1" class="lead mt-4">
+                        Kami melayani delivered oreder Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam cupiditate fugiat cumque nemo modi voluptate quibusdam. Impedit fugiat, esse deleniti cupiditate laboriosam atque. Dolorum minima eum quod accusamus, obcaecati
+                        adipisci enim sequi aperiam assumenda amet consequatur laudantium ex architecto hic pariatur vel, veritatis magni rerum sapiente. Accusantium, eveniet! Suscipit, blanditiis.
+                    </p>
+                    <p id="text-1" class="lead mt-4">Saat ini kami sudah tersedia di Gofood, Grabfood, Maxim, dan Shopee. Silahkan pesan tanpa harus repot keluar rumah Terima kasih.</p>
+                </div>
+                <div class="col-md">
+                    <img src="img/home-4.svg" alt="" class="img-fluid" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- pemesanan end -->
+
+    <!-- lokasi -->
+    <section class="p-5 bg-light text-success">
+        <div class="container text-center">
+            <h2>Lokasi kami :</h2>
+            <i class="bi bi-arrow-return-right h1 text-success"></i>
+            <p class="lead text-success">Alamat : Gg Sadewa No. 18, Sekaran, Kecamatan Gunungpati, Kota Semarang, Jawa Tengah.</p>
+            <iframe id="lokasi" class="rounded-4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.7023442825107!2d110.39159497113698!3d-7.044223053433994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708bc476854ed7%3A0x2a363e83f5c234bf!2sGg.%20Sadewa%20No.18%2C%20Sekaran%2C%20Kec.%20Gn.%20Pati%2C%20Kota%20Semarang%2C%20Jawa%20Tengah%2050229!5e0!3m2!1sid!2sid!4v1691936548182!5m2!1sid!2sid"
+                width="600" height="400" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <!-- lokasi end -->
+
+    <!-- footer -->
+
+    <div class="card">
+        <div class="card-body bg-success">
+            <blockquote class="blockquote mb-0">
+                <footer class="blockquote-footer">
+                    <div class="col-md">
+                        <p class="lead fw-semibold text-light text-center">Create &copy;Copyright MSDev 2023</p>
+                        <div class="text-center">
+                            <a href="#" class="lead text-light link-offset-2 link-underline link-underline-opacity-0"> &#64;mohamadsamsudin47@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <a href="#" class="position-absolute bottom-0 end-0 p-5"><i class="bi bi-arrow-up-circle-fill text-light h2"></i></a>
+                    </div>
+                </footer>
+            </blockquote>
+        </div>
+    </div>
+
+    <!-- footer end -->
+
+    <!-- bootstrap bundle js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!-- bootstrap bundle js end-->
+</body>
+
+</html>

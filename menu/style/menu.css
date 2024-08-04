@@ -1,0 +1,16 @@
+body::before {
+  display: block;
+  content: " ";
+  height: 90px;
+}
+
+#image-nasi {
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+#text-2 {
+  text-align: justify;
+}
